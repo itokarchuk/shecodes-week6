@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheCodes Plus Week5</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="site"> 
+<form class="search-form" id="search-form">
+<form>
+ <div class="container">
+      <div class="row">
+     <div class="col-5"> 
+  <div class="mb-3">
+    <label for="city" class="form-label" id="form-city-search">What's your city?</label>
+    <input type="search" class="form-control" id="city">
+  </div>
+  <button type="submit" class="btn btn-primary" id="search-button">Search</button>
+    <button type="click" class="btn btn-primary" id="current-location-button">Locate me</button>
+</form>
+</div>
+    <div class="col-6">
+<h4 id="date">It's Sunday, 26 Jul, 12:00</h4>
+<h4 id="show-city"></h4>
+<h2> <span id="temp-main"></h2>
+<p>
+</br>
+ Precilitation: <span id="humidity"> %</span>
+ </br>
+ Wind: <span id="wind">km/h</span>
+</p>
+ </div>
+  </div>
+    <div class="container">
+    <div class="row row-cols-5"> 
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Monday</h5>
+        <p class="card-text">+20, sunny</p>
+        <a href="#" class="btn btn-primary">More info</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Tuesday</h5>
+        <p class="card-text">+22, sunny</p>
+        <a href="#" class="btn btn-primary">More info</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Wednesday</h5>
+        <p class="card-text">+18, cloud</p>
+        <a href="#" class="btn btn-primary">More info</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Thursday</h5>
+        <p class="card-text">+16, rain</p>
+        <a href="#" class="btn btn-primary">More info</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Friday</h5>
+        <p class="card-text">+16, sunny</p>
+        <a href="#" class="btn btn-primary">More info</a>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script src="app-1.js"></script>
+
+    </body>
+</html>
