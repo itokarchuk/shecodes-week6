@@ -1,36 +1,79 @@
 h2,
 h4 {
-  color: blue;
+  color: #1367c1;
+  font-size: 25px;
+  line-height: 1;
 }
 
-p {
-  font-size: 12px;
-  font-style: italic;
-}
-
-a {
-  color: #fce762;
-  padding: 0;
-  font-size: 15px;
-}
-
-.site {
-  font-family: Arial, Helvetica, sans-serif;
+.weather-app {
   display: block;
-  margin: 60px 250px;
-  padding: 50px 70px;
+  margin: 60px auto;
+  margin-bottom: 5px;
+  padding: 50px 50px;
   border: 3px solid;
   border-radius: 15px;
   border-color: #0267c1;
   background: radial-gradient(
-    621px at 25.3% 13.8%,
-    rgb(255, 255, 255) 0%,
-    rgb(234, 236, 255) 90%
+    821px at 85.3% 20.8%,
+    rgba(255, 255, 255, 0.6) 0%,
+    rgba(234, 236, 255, 0.6) 90%
   );
+  max-width: 900px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.col-6 {
+  margin-top: 4px;
 }
 
 .form-label {
-  font-size: 20px;
+  font-size: 17px;
+  color: #1367c1;
+}
+
+.output {
+  padding: 0;
+  margin: 0;
+}
+
+.city {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.date {
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+.degree {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+}
+
+.units {
+  font-weight: 100;
+  font-size: 17px;
+  top: -32px;
+}
+
+.units a {
+  color: #1367c1;
+}
+.units a:hover {
+  color: #f9ca33;
+}
+
+.icon {
+  max-width: 500px;
+}
+
+.details {
+  font-size: 15px;
+  font-style: italic;
+  color: #1367c1;
+  text-transform: capitalize;
 }
 
 .card {
@@ -41,11 +84,37 @@ a {
 .card-title {
   font-size: 15px;
   font-weight: bold;
+  color: #1367c1;
 }
 .card-text {
   font-size: 15px;
+  color: #1367c1;
 }
 
 .temp {
   font-size: 28px;
+}
+
+.days {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.link {
+  display: block;
+  margin: 0px auto;
+  font-size: 12px;
+  margin-top: 30px;
+  font-style: italic;
+  max-width: 900px;
+  color: #1367c1;
+}
+.gh-link {
+  color: #1367c1;
+}
+.gh-link:hover {
+  color: #f9ca33;
 }
